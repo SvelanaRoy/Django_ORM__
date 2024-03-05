@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'orm_shop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dj_orm',
-        'USER': 'adilet',
-        'PASSWORD': '1',
+        'NAME': 'testDJ',
+        'USER': 'postgres',
+        'PASSWORD': 'abc123',
         'HOST': 'localhost',
         'PORT': 5432
     }
@@ -127,7 +127,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
